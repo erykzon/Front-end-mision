@@ -41,7 +41,8 @@
             <dd>Fantasia</dd>
         <dt>Globos</dt>
             <dd>Letras</dd>
-            <dd>Numeros</dd>      
+            <dd>Numeros</dd>
+            <dd>clasico</dd>      
     </ul>
 <hr>
 
@@ -57,7 +58,7 @@
 </select>
     
 <label for="creacion">Selecciona el segundo sabor  </label>
-<select name="Pastel" id="Pastel">
+<select name="Pastel2" id="Pastel2">
     <option value="FRESA">FRESA</option>
     <option value="RED VELVET">RED VELVET</option>
     <option value="VAINILLA">VAINILLA</option>
@@ -65,8 +66,58 @@
     <option value="LIMON">LIMON</option>
 </select>
 <br>
-<input type="submit" value="¡CREAR!">
 
+
+<hr>
+
+<h2>Ahora agrega los adornos</h2>
+<p>Tus adornos</p>
+<label for="tus_adornos">Selecciona el primer adornos  </label>
+<select name="velas" id="velas">
+    <option value="letras">LETRAS</option>
+    <option value="numeros">NUMEROS</option>
+    <option value="fantasia">FANTASIA</option>
+    
+</select>
+    
+<label for="tus_adornos">Selecciona el segundo adorno  </label>
+<select name="globos" id="globos">
+    <option value="letra">Globo de letras</option>
+    <option value="numeros">Globo de numeros</option>
+    <option value="clasico">Globo clasico</option>
+
+</select>
+
+<hr>
+<h3>Realizar pedido :</h3>
+<form action="/">
+    <div>
+        <label for="Nombre">Nombre del cliente</label>
+        <input type="text" name="Nombre" id="Nombre">
+    </div>
+    <br>
+        <label for="telefono">Telefono del cliente</label>
+        <input type="number" name="number" id="number">
+    
+    <br>
+        <input type="radio" name="metodo_entrega" id="Recoger en tienda" value="Recoger en tienda">
+        <label for="Recoger en tienda">Recoger en tienda</label>
+        <input type="radio" name="metodo_entrega" id="Enviar a domicilio" value="Enviar a domicilio">
+        <label for="Enviar a domicilio">Enviar a domicilio</label>
+   
+    <br>
+        <label for="address">Direccion</label>
+        <input type="text" name="Direccion" id="Direccion">
+    <br>
+    <div>
+        <label for="Tipo de pastel">Selecciona el tipo de pastel</label>
+        <select name="tipo de pastel" id="tipo de pastel">
+            <option value="Clasico">Clasico</option>
+            <option value="Especial">Especial</option>
+        </select>
+    </div>
+
+    </form> 
 
 
 </body>

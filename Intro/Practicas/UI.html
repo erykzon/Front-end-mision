@@ -121,7 +121,7 @@
         <hr>
         <!-- Formularios -->
         <h2>Ejemplo de Formulario</h2>
-        <form action="/accion.js" id="form1" method="post">
+        <form action="/action.js" id="form1" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre"><br><br>
             <input type="submit" value="Submit">
@@ -131,7 +131,19 @@
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido" form="form1">
         
-    
+        <form onsubmit="return setAction(this)">
+            <div>
+              <label>Name:</label>
+              <input id="name" name="name" type="text">
+            </div>
+            <div>
+              <label>Email:</label>
+              <input id="email" name="email" type="email">
+            </div>
+            <div>
+              <input id="submit" type="submit">
+            </div>
+          </form>
 
 
 </head>
