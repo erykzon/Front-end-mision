@@ -15,6 +15,7 @@ const fetchPokemon = () => {
         if (data) {
             console.log(data);
             let pokeImg = data.sprites.front_default;
+            
             pokeImage(pokeImg);
             console.log(pokeImg);
         }
@@ -26,7 +27,3 @@ const pokeImage = (url) => {
     pokePhoto.src = url;
 }
 
-const  pokeTypes = (url) => {
-    const poketype = document.getElementById("poke-types")
-    poketype.innerHTML=`${data.types[0].type.name}`
-} 
