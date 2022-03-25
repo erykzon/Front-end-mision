@@ -17,6 +17,9 @@ const fetchPokemon = () => {
             let pokeImg = data.sprites.front_default;
             pokeImage(pokeImg);
             console.log(pokeImg);
+            let poketipo = data.sprites.front_default;
+            poketipo(poketype);
+            console.log(poketype);
         }
     });
 }
@@ -25,4 +28,7 @@ const pokeImage = (url) => {
     const pokePhoto = document.getElementById("pokeImg");
     pokePhoto.src = url;
 }
+const poketipo =() => {
+
+}   
 
