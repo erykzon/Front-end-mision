@@ -15,7 +15,6 @@ const fetchPokemon = () => {
         if (data) {
             console.log(data);
             let pokeImg = data.sprites.front_default;
-            
             pokeImage(pokeImg);
             console.log(pokeImg);
         }
