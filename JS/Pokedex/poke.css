@@ -10,13 +10,10 @@ html {
     background-color: white;
     width: 326px;
     border-radius: 16px;
-    overflow: hidden;    
-    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+    border-radius: 4px;
+    color: #000
+
 }
-
-
 
 .poke-stats div {
     display: flex;
