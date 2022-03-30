@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="../Pokedex/poke.css">
+    
+</head>
+<body>
+  <div class="card">  
+    <div>
+      <h1>Pokedex</h1>
+      <input type="text" placeholder="pokemon" id="pokeName" name="pokeName">
+      <button onclick="fetchPokemon()">Cambiar Imágen</button>
+    </div>
+    
+    <div class="card-body">
+      <div class="img">
+        <img src="../Pokedex/img/inicio.jpg" alt="Pokemon" id="pokeImg" width="150px">
+      </div>
+        <div class="tipos">
+          <div id="poke-types" ></div>
+        </div>
+        <div class="movis">
+          <div id="poke-moves"></div>
+        </div>
+        <div class="stadis">
+          <div id ="poke-stats"></div>
+        </div>
+    </div>  
+  </div>
+</body>
+
+
+<footer>
+    <script src="../Pokedex/pokedex.js"></script>
+</footer>
+</html>
