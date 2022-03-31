@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+.card{
+    position: flex;
+    background-color: white;
+    width: 326px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    // height: 100vh;
+    // text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    &-body{
+        font-size: 20px;
+    }
+    .img{
+        text-align: center;
+    }
+    .tipos div{
+        text-align: center;
+        
+    }
+}
+
+.movis div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 4px;
+}
+
+.stadis div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    column-gap: 90px;
+    padding: 2px;
+}
