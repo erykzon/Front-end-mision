@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url("./img/fondo.jpg");
+  background-position: right 100vmax, top 100vmax;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card .card-body {
+  padding: 10px;
+  width: 330px;
+  font-size: 25px;
+  margin: 0 auto;
+  background-color: #ffffffa8;
+  border: 1px solid black;
+  border-radius: 16px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card .ingreso {
+  text-align: center;
+  margin: 8px;
+  margin-bottom: 12px;
+}
+
+.card .ingreso h1 {
+  margin: 5px;
+  font-size: 30px;
+}
+
+.card .ingreso #pokeName {
+  font-size: 25px;
+  height: 15%;
+  width: 90%;
+  padding: 7px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffffff9a;
+}
+
+.card .ingreso button {
+  height: auto;
+  border-radius: 20px;
+  font-size: 28px;
+}
+
+.card .ingreso button:hover {
+  background-color: #080b1d;
+  color: #a7cafc;
+}
+
+.card .img {
+  text-align: center;
+}
+
+.card .img #pokeImg {
+  border: 1px solid darkgrey;
+  border-radius: 100%;
+}
+
+.card .tipos div {
+  text-align: center;
+  border-radius: 7px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7);
+          box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7);
+}
+
+.card .moves {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 7px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7);
+          box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7);
+  gap: 5px;
+  padding: 4px;
+}
+
+.card .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-column-gap: 6px;
+          column-gap: 6px;
+  padding: 2px;
+}
+
+.card .stats .nameS {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.card .stats .amountS {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*# sourceMappingURL=styles.css.map */

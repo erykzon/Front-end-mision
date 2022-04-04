@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('./img/fondo.jpg');
+    background-position: right 100vmax /* bottom 100vmax */, /* left 100vmax */ top 100vmax;
+    // background-position: 100vmax;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // overflow: hidden;
+    // height: 100vh;
+    // text-align: center;
+    // background-color: #FFF;
+    .card-body{
+        padding: 10px;
+        width: 330px;
+        font-size: 25px;
+        margin: 0 auto;
+        background-color: #ffffffa8;
+        border: 1px solid black;
+        border-radius: 16px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .ingreso{
+        text-align: center;
+        margin: 8px;
+        margin-bottom: 12px;
+        h1{
+            margin: 5px;
+            font-size: 30px;
+        }
+        #pokeName{
+            font-size: 25px;
+            height: 15%;
+            width: 90%;
+            padding: 7px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 15px;
+            background-color: #ffffff9a;
+        }
+        button{
+            &:hover{
+                background-color: #080b1d;
+                color: #a7cafc;
+            }
+            height: auto;
+            border-radius: 20px;
+            font-size: 28px;
+        }
+    }
+    .img{
+        text-align: center;
+        // border: 5px solid darkgrey;
+        // border-radius: 100%;
+        // margin-top: calc(-48px - 5px);
+        // background-color: white;
+        #pokeImg{
+            // text-align: ce}nter;
+            border: 1px solid darkgrey;
+            border-radius: 100%;
+            // margin-top: calc(-48px - 5px);
+            // background-color: white;
+        }
+    }
+    .tipos div{
+        text-align: center;     
+        border-radius: 7px;
+        overflow: hidden;
+        box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7); 
+        
+    }
+    .moves {        
+        // div{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            justify-content: space-around;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 2px 2px 4px rgba(141, 141, 141, 0.7); 
+            gap: 5px;
+            padding: 4px;
+    }
+    .stats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        column-gap: 6px;
+        padding: 2px;
+        .nameS{
+            justify-content: right;
+            display: inline-flex;
+            // align-self: flex-start;
+        }
+        .amountS{
+            // align-self: flex-end;
+            justify-content: left;
+            display: inline-flex;
+            
+        }
+
+    }
+}
+
